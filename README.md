@@ -5,5 +5,5 @@ pip install cookiecutter
 
 #### 使用
 ```
-cookiecutter https://gitee.com/xiansuia/fastapi_demo.git
+cookiecutter https://github.com/JustGubei/Fastapi_demo.git
 ```
