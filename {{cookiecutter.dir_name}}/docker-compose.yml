@@ -1,0 +1,10 @@
+version: '3'
+services:
+  fastapi-template:
+    image: fastapi-template
+    build: .
+    container_name: fastapi-template
+    ports:
+      - "10159:10159"
+    extra_hosts:
+      - "interface.dayukeji.com:192.168.0.126"
